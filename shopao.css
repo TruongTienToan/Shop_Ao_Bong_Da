@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header img {
+    display: block;
+}
+
+nav {
+    background-color: rgb(238, 28, 28);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li,
+a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav ul li:nth-child(2) input {
+    border-radius: 5px;
+    border: none;
+}
+
+nav ul li:nth-child(4) button {
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+nav ul li:nth-child(5) button {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.container ul li:nth-child(2) button {
+    border-radius: 5px;
+    border: none;
+    width: 30px;
+    height: 27px;
+    background-color: rgb(230, 255, 8);
+}
+
+.container ul li:nth-child(2) button:hover {
+    background-color: rgb(252, 252, 58);
+}
+
+.container ul li:nth-child(4) button:hover {
+    background-color: yellow;
+}
+
+nav ul li:nth-child(5) button:hover {
+    color: aliceblue;
+    background-color: yellow;
+}
+
+.menu-bar-content {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(216, 212, 212);
+}
+
+.menu-bar-content>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-bar-content>ul>li a {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-bar-content>ul>li:hover {
+    background-color: rgb(255, 252, 57);
+}
+
+.menu-bar-content>ul>li {
+    padding: 15px 6px;
+    transition: all 0.3s ease;
+}
+
+.menu-bar-content>ul>li:nth-child(7) {
+    position: relative;
+}
+
+.menu-bar-content>ul>li:nth-child(7)::before {
+    position: absolute;
+    content: "Giảm 50%";
+    display: block;
+    height: 15px;
+    width: 45px;
+    background-color: red;
+    border-radius: 5px;
+    right: -25px;
+    top: 2px;
+    font-size: 10px;
+    padding-left: 3px;
+    color: white;
+}
+
+.menu-bar-content>ul>li:nth-child(7)::after {
+    position: absolute;
+    content: "";
+    background-color: red;
+    height: 7px;
+    width: 7px;
+    display: block;
+    top: 12px;
+    right: 10px;
+    z-index: 2;
+    transform: rotate(45deg);
+}
+
+.menu-bar-content>ul>li:nth-child(1) {
+    background-color: rgb(238, 28, 28);
+}
+
+.container ul div a {
+    color: white;
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+.phone {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.fa-phone {
+    margin: auto 10px;
+}
+
+.menu-bar-content ul li {
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    background-color: #ddd;
+    width: 200px;
+    height: 180px;
+    top: 100%;
+    display: none;
+}
+
+.submenu ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.submenu ul li:hover {
+    background-color: rgb(252, 50, 50);
+}
+
+.menu-bar-content>ul>li:hover .submenu {
+    display: block;
+}
+
+.title {
+    background-color: rgba(241, 34, 34, 0.986);
+    color: white;
+}
+
+.list {
+    background-color: rgba(153, 143, 143, 0.993);
+}
+
+.product-thumbnail {
+    background-color: rgb(240, 247, 244);
+}
+
+
+table{
+    background-color: rgb(220, 252, 245);
+}
+#id1{
+    text-align: center; font-size: 25px;
+    background-color: white;
+    color: black;
+}
+h1{
+    text-align: center; font-size: 50px;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+th, th {
+    text-align: left;
+}
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+table, tr, th, td{
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+

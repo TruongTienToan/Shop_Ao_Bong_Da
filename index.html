@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shopao.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Áo bóng đá classic</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href=""><img style="width:100px"
+                            src="https://bizweb.dktcdn.net/thumb/1024x1024/100/288/138/collections/fb-img-1543846287053.jpg?v=1574573371137"
+                            alt=""></a></li>
+                <li><input type="text" placeholder="Tìm kiếm sản phẩm..." style="width:300px; height: 25px;">
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </li>
+                <div class="phone">
+                    <i class="fa fa-phone"></i>
+                    <div>
+                        <a href="">0123456789</a>
+                        <span style="color: white; font-size: 12px;">Tổng đài miễn phí</span>
+                    </div>
+                </div>
+                <li>
+                    <button>Giỏ hàng<i class="fa-solid fa-cart-shopping"></i></button>
+                </li>
+                <li><button><a href="">Lịch sử đơn hàng</a></button></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="menu-bar">
+        <div class="container">
+            <div class="menu-bar-content">
+                <ul>
+                    <li><a href="" style="color: white;"><i class="fa-solid fa-bars"></i>Chọn theo CLB<i
+                                class="fa-solid fa-caret-down"></i></a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="">Manchester United FC</a></li>
+                                <li><a href="">Arsenal FC</a></li>
+                                <li><a href="">Chelsea FC</a></li>
+                                <li><a href="">Liverpool FC</a></li>
+                                <li><a href="">Real Madrid CF</a></li>
+                                <li><a href="">FC Barcelona</a></li>
+                                <li><a href="">Dortmund</a></li>
+                                <li><a href="">Juventus</a></li>
+                                <li><a href="">Bayern Munich</a></li>
+                                <li><a href="">Inter Milan</a></li>
+                                <li><a href="">Paris Saint Germain</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href=""><i class="fa-solid fa-house"></i>Trang chủ</a></li>
+                    <li><a href=""><i class="fa-solid fa-shop"></i>Shop<i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-futbol"></i>Xem theo đội<i
+                                class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-shirt"></i>Dịch vụ in áo bóng đá<i
+                                class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="">Áo bóng đá Retro Classic<i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="">Sale 50%<i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="">Địa chỉ<i class="fa-solid fa-caret-down"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <table  style=" border: 1px solid black; width: 1350px; float: right;">
+        <tbody>
+            <tr>
+                <th style="font-size: 30px;" colspan="7">DANH SÁCH ÁO BÓNG ĐÁ </th>
+            </tr>
+            <tr>
+                <th>Stt</th>
+                <th>Tên mẫu</th>
+                <th>Size</th>
+                <th>Màu sắc</th>
+                <th>Giá</th>
+                <th>Ảnh</th>
+                <th>Tùy chọn</th>
+            </tr>
+        <tbody id="list-shoes">
+        </tbody>    
+    </table>
+
+    <table border="1" style="width: 500px; height: 300px" ;>
+        <tr id="id1">
+            <th colspan="2">Thông tin áo bóng đá</th>
+        </tr>
+
+        <tr>
+            <th>Stt</th>
+            <td><input type="number" id="stt"></td>
+        </tr>
+        <tr>
+            <th>Tên mẫu</th>
+            <td><input type="text" id="name"></td>
+        </tr>
+        <tr>
+            <th>Size</th>
+            <td><input type="text" id="size"></td>
+        </tr>
+        <tr>
+            <th>Màu sắc</th>
+            <td><input type="text" id="color"></td>
+        </tr>
+        <tr>
+            <td><center>Giá</center></td>
+            <td><input  type="number" id="price"></td>
+        </tr>
+        <tr>
+            <th>Ảnh</th>
+            <td><input type="text" id="img"></td>
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+                <button style="background-color: limegreen" id="add" onclick="addShoes()">Add</button>
+                <button style="background-color: gold" id="edit" onclick="updateShoes()">Save</button>
+            </td>
+        </tr>
+        
+    </table>
+</body>
+<script src="shopao.js"></script>
+
+</html>
