@@ -9,4 +9,4 @@
 1. https://nhen.vn/collections/ao-bong-da-retro-classic
 ## Thành quả
 1. Link git: https://github.com/TruongTienToan/Shop_Ao_Bong_Da.git
-2. Link sản phẩm: https://truongtientoan.github.io/Shop-Giay/
+2. Link sản phẩm:  https://truongtientoan.github.io/Shop_Ao_Bong_Da/
